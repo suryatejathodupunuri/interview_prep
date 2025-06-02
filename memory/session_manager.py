@@ -1,5 +1,3 @@
-# Simple placeholder for session memory handling
-# You can expand this with MOYA memory APIs
 
 class SessionManager:
     def __init__(self):
