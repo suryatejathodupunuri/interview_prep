@@ -1,6 +1,7 @@
 
 
-````markdown
+---
+
 # 💼 Interview Prep Assistant
 
 Welcome to **Interview Prep**, an intelligent multi-agent system designed to help users practice and improve their interview skills. This project uses the MOYA framework combined with Ollama and large language models (LLMs) like `mistral` to simulate realistic interview scenarios and provide insightful feedback using AI agents.
@@ -9,11 +10,11 @@ Welcome to **Interview Prep**, an intelligent multi-agent system designed to hel
 
 ## 🚀 Features
 
-- Multi-agent architecture using MOYA  
-- AI-powered question generation and feedback via Ollama  
-- Technical, behavioral, and feedback agents  
-- Shared memory  
-- Central orchestrator to manage agent workflows  
+* Multi-agent architecture using MOYA
+* AI-powered question generation and feedback via Ollama
+* Technical, behavioral, and feedback agents
+* Shared memory
+* Central orchestrator to manage agent workflows
 
 ---
 
@@ -24,7 +25,7 @@ Welcome to **Interview Prep**, an intelligent multi-agent system designed to hel
 ```bash
 git clone https://github.com/suryatejathodupunuri/interview_prep.git
 cd interview_prep
-````
+```
 
 ### 2. Install Dependencies
 
@@ -77,4 +78,3 @@ The orchestrator will:
 ```text
 moya-ai[ollama]
 ```
-
